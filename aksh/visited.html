@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* a:visited{
+        color: aqua;
+    } */
+    a[href$=".pdf"]{
+        /* background-color: blue; */
+        background-image: linear-gradient(orange,white,green);
+        color: black;
+        text-decoration: none;
+        /* color:white green; */
+    }
+    a:hover{
+        background-color: brown;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+    /* div + p{
+
+        font-size: 45px;
+        color: blueviolet;
+    }  */
+
+    
+    /* p::selection{
+        background-color: brown;
+    } */
+    :target["_self"]{
+        
+    }
+    /* select all elemeint after div ~ p ,p ~ div and other */
+     /* div ~ p{
+        background-color: black;
+        color: white;
+    }  */
+    p:fullscreen{
+        font-family: 'Courier New', Courier, monospace;   
+    }
+    p.intro{
+        /* color: blue; */
+        /* background-color: brown; */
+    }
+    /* div p{
+        color: crimson;
+        background-color: black;
+    } */
+
+    div>p{
+        color: pink;
+        background-color:royalblue;
+        border-radius: 12px;
+    }
+    [title~=logo]{
+        background-color: blue;
+        /* font-size: 45px; */
+     
+        background-color: darkgoldenrod;
+        border-radius: 12px;
+    }
+     
+    </style>
+<body>
+        <a href="https://aksh.in" target="_blank">nickon</a>
+        <a href="./aksh.pdf.pdf" target="_blank">pdf</a>
+
+        <div title="him">Lorem,  Maxime?</div>
+        <p>Lorem ipsum, dolor sit <code>:fullscreen</code> amet consectetur adipisicing elit. Eum unde velit officiis.</p>
+        <p fullscreen>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum alias ad labore sit officia praesentium fugit quae, id tempora aliquam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, eligendi.</p>
+
+        <a href="https://www.himu.com" target="_self">Lorem ipsum dolor sit.</a>
+
+
+
+    <div>
+        <p class="intro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis ipsum explicabo quidem ut. At molestiae adipisci reiciendis facilis rem odio in modi saepe? Perferendis eveniet reiciendis ducimus eius consectetur quibusdam, itaque esse, tenetur architecto maiores ex fugiat illo necessitatibus voluptate tempore quia facilis praesentium.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellendus delectus ratione labore blanditiis quisquam facilis quidem laborum accusantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellendus delectus ratione labore blanditiis quisquam facilis quidem laborum accusantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellendus delectus ratione labore blanditiis quisquam facilis quidem laborum accusantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellendus delectus ratione labore blanditiis quisquam facilis quidem laborum accusantium?</p>
+    </div>
+
+    <p title="logo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dignissimos nostrum earum perspiciatis. Inventore consequuntur tempore eaque, ipsam corrupti est!</p>
+    <p  title="logo">Lorem ipsum dolor sit amet.</p>
+    <p title="logo">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p title="logo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet.</p>
+    <p title="logo">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p title="logo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio?</p>
+    <p>Ou$k6eKH^cuDRppS!**I</p>
+</body>
+
+</html>
